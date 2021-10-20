@@ -1,2 +1,3 @@
 # data-structure
-> This Repository give you data structure implementation part
+> Implementation of DSA using c++
+> 
