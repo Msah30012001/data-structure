@@ -1,7 +1,7 @@
 #include<iostream>
 #include<stdlib.h>
 using namespace std;
-void InsertionSort();
+void SelectionSort();
 
 int main(){
     do{
@@ -10,7 +10,7 @@ int main(){
         int choice ;
         cin>>choice;
         switch(choice){
-            case 1:InsertionSort();
+            case 1:SelectionSort();
             break;
             case 2:
                 exit(1);
@@ -19,7 +19,7 @@ int main(){
     }while(1);
     return 0;
 }
-void InsertionSort(){
+void SelectionSort(){
     int n;
     cout<<"How many numbers of value to sort : ";
     cin>>n;
